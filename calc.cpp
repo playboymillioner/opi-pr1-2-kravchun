@@ -15,7 +15,7 @@ int main() {
     cin >> second;
 
     switch (operation) {
-        case 1: result = 0; break;
+        case 1: result = first + second; break;
         case 2: result = 0; break;
         case 3: result = 0; break;
         case 4:

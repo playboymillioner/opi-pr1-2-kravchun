@@ -23,7 +23,7 @@ int main() {
                 cerr << "Ділення на нуль неможливе\n";
                 return 1;
             }
-            result = 0;
+            result = (double)first / second;
             break;
         default:
             cerr << "Невідома операція\n";

@@ -16,7 +16,7 @@ int main() {
 
     switch (operation) {
         case 1: result = first + second; break;
-        case 2: result = 0; break;
+        case 2: result = first - second; break;
         case 3: result = 0; break;
         case 4:
             if (second == 0) {
